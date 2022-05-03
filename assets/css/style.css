@@ -61,11 +61,14 @@ footer {
     display: flex;
     align-items: center;
     font-size: 30px;
-    /* justify-content: center; */
-    /* background-color: #5dc1f9; */
+    
 }
 #viajeschile {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 30px;
+}
+ 
+#rrss {
+    color: white;
 }
