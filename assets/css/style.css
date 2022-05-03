@@ -2,12 +2,21 @@ body {
     background-color: black;
     margin:0;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 #logo {
     height: 30px;
     width: 30px;
 }
+.navbar a:hover {
+    background-color:rgb(2, 146, 146);
+}
+.navegador{
+    background-color: black;
+    opacity: 0.4;
+}
+
 
 #presentacion {
     height: 280px;
@@ -22,16 +31,13 @@ body {
 }
 h2 {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     padding: 2rem;
     margin-bottom: 0;
 }
 p {
-    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 15px;
-    /* padding: 2rem; */
 }
 
 
