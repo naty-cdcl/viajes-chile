@@ -1,8 +1,8 @@
 $(document).ready(function(){
     
 //funcion smooth scroll
-    $('html, body').animate({
-        scrollTop: $('h2').offset().top
+    $('html,body').animate({
+        scrollTop: $('body').offset().top
     }, 'slow' );
  
 //funcion oscurecer barra de navegación
