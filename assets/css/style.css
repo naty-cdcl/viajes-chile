@@ -5,6 +5,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/*barra de navegacion*/
 #logo {
     height: 30px;
     width: 30px;
@@ -17,7 +18,7 @@ body {
     opacity: 0.4;
 }
 
-
+/*presentacion*/
 #presentacion {
     height: 280px;
     overflow: hidden;
@@ -27,7 +28,6 @@ body {
     color: white;
     text-align: center;
     align-items: center;
-
 }
 h2 {
     text-align: center;
@@ -40,7 +40,7 @@ p {
     font-size: 15px;
 }
 
-
+/*destacados*/
 #tarj {
     height: 320px;
     overflow: hidden;
@@ -55,12 +55,14 @@ h5 {
     font-size: 18px;
 }
 
+/*contacto*/
 .form-label {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 15px;
 }
 
+/*pie de página*/
 footer {
     height: 100px;
     text-align: center;
