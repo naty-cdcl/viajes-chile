@@ -23,7 +23,7 @@
 <body>
 <!--navegador-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navegador">
-        <div class="container">
+        <div class="container justify-content-around">
           <a class="navbar-brand" href="#" style="font-weight: 300;"><img src="./assets/img/viajes.svg" alt="logo-avion" id="logo"> Viajes Chile</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,6 +75,7 @@
 <!--contenedor cuerpo de pagina-->
 <div class="cuerpopagina container">
 <!--seccion presentación-->
+    <div class="d-none d-md-block">
     <h2 id="quienesSomos">¿QUIÉNES SOMOS?</h2>
     <section class="row">
         <div class="col md-4">
@@ -94,12 +95,13 @@
             </div>
         </div>
     </section>
+  </div>
 <!--seccion destacados-->
     <h2 id="destacados">DESTACADOS</h2>
-    <section class="container-fluid align-content-center py-4">
+    <section class="container-fluid align-content-center">
         <div class="row row-cols-1 row-cols-md-4">
           <div class="col">
-            <div class="card mx-auto" id="tarj">
+            <div class="card mx-auto mb-4" id="tarj">
               <img src="./assets/img/card1.jpg" class="imagencard card-image-top" alt="montañas">
               <div class="card-body bg-info">
                 <h5 class="card-title">Lorem ipsum dolor sit amet consectetur </h5>
@@ -108,7 +110,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mx-auto" id="tarj">
+            <div class="card mx-auto mb-4" id="tarj">
               <img src="./assets/img/card2.jpg" class="imagencard card-image-top" alt="laguna">
               <div class="card-body bg-info">
                 <h5 class="card-title">Lorem ipsum dolor sit amet consectetur </h5>
@@ -117,7 +119,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mx-auto" id="tarj">
+            <div class="card mx-auto mb-4" id="tarj">
               <img src="./assets/img/card3.jpg" class="imagencard card-image-top" alt="salar">
               <div class="card-body bg-info">
                 <h5 class="card-title">Lorem ipsum dolor sit amet consectetur </h5>
@@ -153,7 +155,7 @@
                     </div>
                 <div class="col">
                   <div id="liveAlertPlaceholder"></div>
-                   <button type="submit" class="btn btn-dark bg-info" title="Presione para enviar" id="enviar">Enviar</button>
+                   <button type="button" class="btn btn-dark bg-info" title="Presione para enviar" id="enviar">Enviar</button>
                 </div>
             </form>  
     </section> 
@@ -174,13 +176,16 @@
 <!-- jQuery 3.6-->
   <!-- <script src="./assets/js/jquery-3.6.0.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
 <!--cdn bootstrap 5.1-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 <!--script js-->
   <script src="https://naty-cdcl.github.io/viajes-chile/assets/js/script.js"></script>
   <!-- <script src="./assets/js/script.js"></script> -->
+  
 <!--script jquery-->
   <script src="https://naty-cdcl.github.io/viajes-chile/assets/js/jquery.js"></script>
+  <!-- <script src="./assets/js/jquery.js"></script> -->
 </body>
 </html>

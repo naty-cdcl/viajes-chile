@@ -31,8 +31,9 @@ body {
 }
 h2 {
     text-align: center;
-    font-weight: 400;
-    padding: 2rem;
+    font-weight: 300;
+    font-size:large;
+    padding: 1rem;
     margin-bottom: 0;
 }
 p {
@@ -79,4 +80,14 @@ footer {
  
 #rrss {
     color: white;
+}
+
+@media screen and (min-width: 992px) {
+    h2 {
+        text-align: center;
+        font-weight: 400;
+        padding: 2rem;
+        margin-bottom: 0;
+    }
+
 }
