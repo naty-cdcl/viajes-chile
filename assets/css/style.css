@@ -75,12 +75,14 @@ footer {
 #viajeschile {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 18px;
 }
  
 #rrss {
     color: white;
+    font-size: 25px ;
 }
+
 
 @media screen and (min-width: 992px) {
     h2 {
@@ -88,6 +90,14 @@ footer {
         font-weight: 400;
         padding: 2rem;
         margin-bottom: 0;
+    }
+    #viajeschile {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+    }
+    #rrss {
+        font-size: 40px ;
     }
 
 }
